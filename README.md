@@ -1,8 +1,19 @@
-# React + Vite
+Currency Converter using React and Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. The mini project refers to the reusability of the components.
+2. It makes use of currency converter API.
+3. API : "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd.json"
+4. Also these function shows use of different hooks in react.
+5. Following are the hooks used in the project :
 
-Currently, two official plugins are available:
+a. useState() : 
+useState is a React Hook that lets you add a state variable to your component.
+const [state, setState] = useState(initialState);
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+b. useEffect() :
+useEffect is a React Hook that lets you synchronize a component with an external system.
+useEffect(setup, dependencies?)
+
+6. Also made a custom hook using javascript
+
+
